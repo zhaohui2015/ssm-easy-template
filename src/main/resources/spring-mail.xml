@@ -6,6 +6,8 @@
         http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
         ">
 
+
+
     <!-- 配置邮箱服务器 -->
     <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
         <property name="host" value="${mail.host}"/>
