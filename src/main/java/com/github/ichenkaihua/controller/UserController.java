@@ -5,7 +5,6 @@ import com.github.ichenkaihua.model.User;
 import com.github.ichenkaihua.service.UserService;
 import com.github.ichenkaihua.utils.URIUtils;
 import io.swagger.annotations.*;
-import jdk.nashorn.internal.objects.annotations.Optimistic;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
